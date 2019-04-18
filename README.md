@@ -5,6 +5,17 @@ Note right of Bob: Bob thinks
 Bob-->Alice: I am good thanks!
 ```
 
+```flow
+st=>start: Start
+op=>operation: Your Operation
+cond=>condition: Yes or No?
+e=>end
+
+st->op->cond
+cond(yes)->e
+cond(no)->op
+```
+
 <dl>
   <dt>Definition list</dt>
   <dd>Is something people use sometimes.</dd>
@@ -88,5 +99,7 @@ Content from cell 1 | Content from cell 2
 Content in the first column | Content in the second column
 
 ![Image of Yaktocat](https://octodex.github.com/images/yaktocat.png)
+
+```
 
 ```
