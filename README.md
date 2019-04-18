@@ -1,4 +1,19 @@
-> ## ordered list
+
+```sequence
+Alice->Bob: Hello Bob, how are you?
+Note right of Bob: Bob thinks
+Bob-->Alice: I am good thanks!
+```
+
+<dl>
+  <dt>Definition list</dt>
+  <dd>Is something people use sometimes.</dd>
+  <dt>Markdown in HTML</dt>
+  <dd>Does *not* work **very** well. Use HTML <em>tags</em>.</dd>
+</dl>
+
+
+## ordered list
 >
 > 1. Red
 > 2. ​    Grren
@@ -73,3 +88,5 @@ Content from cell 1 | Content from cell 2
 Content in the first column | Content in the second column
 
 ![Image of Yaktocat](https://octodex.github.com/images/yaktocat.png)
+
+```
